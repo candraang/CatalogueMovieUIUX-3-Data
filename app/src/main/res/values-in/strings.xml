@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Katalog Film Ui/Ux</string>
+
+    <string name="navigation_drawer_open">Membuka navigation drawer</string>
+    <string name="navigation_drawer_close">Menutup navigation drawer</string>
+
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_notification">Notifikasi</string>
+
+    <string name="label_share">Berbagi </string>
+    <string name="label_detail_movie">Detil Film</string>
+    <string name="label_search_movie">Cari Film </string>
+    <string name="label_now_playing">Sedang Tayang</string>
+    <string name="label_upcoming">Segera Tayang</string>
+
+    <string name="label_search">Cari</string>
+    <string name="search_hint">cari berdasarkan judul film</string>
+    <string name="label_language">Bahasa</string>
+    <string name="label_communicate">Ceritakan</string>
+
+    <string name="send">Mengirim</string>
+    <string name="share_article">Berbagi artikele</string>
+
+
+    <string name="label_detail">Detil</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="captain_america">Captain America</string>
+    <string name="description">Deskripsi</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="rate_movie">Tingkatan Film</string>
+    <string name="label_email">Dicoding.com</string>
+    <string name="label_name">Candra Angjaya</string>
+
+    <string name="key_reminder_daily">Pengingat Harian</string>
+    <string name="key_reminder_upcoming">film yang akan segera diputar</string>
+    <string name="key_setting_locale">Mengatur lokasi</string>
+
+    <string name="label_daily_reminder">Notifikasi pengingat harian sudah</string>
+    <string name="label_upcoming_reminder">Notifikasi film yang akan datang sudah</string>
+    <string name="label_activated">diaktifkan!</string>
+    <string name="label_deactivated">dinon-aktifkan!</string>
+
+    <string name="label_daily_reminder_title">Notifikasi Pengingat Harian</string>
+    <string name="label_daily_reminder_summary">Nyalakan/matikan notifikasi pengingat harian</string>
+
+    <string name="label_upcoming_reminder_title">Notifikasi Film Yang Akan Datang</string>
+    <string name="label_upcoming_reminder_summary">Nyalakan/matikan notifikasi film yang akan datang</string>
+
+    <string name="label_setting_locale_title">Pengaturan Bahasa</string>
+    <string name="label_setting_locale_summary">Ubah pengaturan bahasa di perangkat anda</string>
+
+    <string name="label_alarm_daily_reminder">Selamat pagi! Siap untuk pilih film terbaru hari ini?</string>
+</resources>

@@ -1,0 +1,65 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_now_playing"
+    style="@style/TextContent.scale"
+    android:layout_margin="5dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:padding="4dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/img_item_photo_now_play"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:layout_toRightOf="@id/img_item_photo_now_play"
+            android:id="@+id/tv_title_now_play"
+            style="@style/TextContent.center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/captain_america"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_below="@id/tv_title_now_play"
+            android:layout_toRightOf="@id/img_item_photo_now_play"
+            android:id="@+id/tv_desc_now_play"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="14sp"
+            android:text="@string/description"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+        <TextView
+            android:layout_below="@id/tv_desc_now_play"
+            android:layout_toRightOf="@id/img_item_photo_now_play"
+            android:id="@+id/tv_rea_date_now_play"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:text="@string/release_date"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"/>
+
+        <LinearLayout
+            style="@style/TextContent.left"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/img_item_photo_now_play"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_set_share_now_play"
+                style="@style/ButtonGeneral"
+                android:text="@string/label_share" />
+            <Button
+                style="@style/ButtonGeneral"
+                android:id="@+id/btn_set_detail_now_play"
+                android:text="@string/label_detail" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
